@@ -1,0 +1,70 @@
+{
+    "27428231618675@lid": {
+        "primeiroContato": "03/06/2026, 21:52:13",
+        "opcoes": [
+            "Nosso horário de atendimento é das 08:00 às 18:00.",
+            "Aceitamos PIX, cartão e dinheiro.",
+            "Um atendente entrará em contato em breve."
+        ],
+        "mensagens": [
+            {
+                "horario": "03/06/2026, 21:52:13",
+                "texto": "menu"
+            },
+            {
+                "horario": "03/06/2026, 21:52:19",
+                "texto": "1"
+            },
+            {
+                "horario": "03/06/2026, 21:52:24",
+                "texto": "4"
+            },
+            {
+                "horario": "03/06/2026, 21:52:48",
+                "texto": "gostaria de saber sobre valores do campeonato"
+            },
+            {
+                "horario": "03/06/2026, 21:53:21",
+                "texto": "também preciso comprar ingressos para o festival"
+            },
+            {
+                "horario": "03/06/2026, 23:07:48",
+                "texto": "menu"
+            },
+            {
+                "horario": "03/06/2026, 23:07:56",
+                "texto": "1"
+            },
+            {
+                "horario": "03/06/2026, 23:08:00",
+                "texto": "3"
+            },
+            {
+                "horario": "03/06/2026, 23:08:09",
+                "texto": "/resumo"
+            }
+        ]
+    },
+    "status@broadcast": {
+        "primeiroContato": "03/06/2026, 22:44:19",
+        "opcoes": [],
+        "mensagens": [
+            {
+                "horario": "03/06/2026, 22:44:19",
+                "texto": ""
+            },
+            {
+                "horario": "03/06/2026, 22:49:52",
+                "texto": "Obrigado meu Deus por mais esse feito no meu restaurante 🙌🏻"
+            },
+            {
+                "horario": "03/06/2026, 23:08:08",
+                "texto": ""
+            },
+            {
+                "horario": "03/06/2026, 23:08:28",
+                "texto": "Família ❤️"
+            }
+        ]
+    }
+}
