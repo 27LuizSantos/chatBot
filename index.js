@@ -9,7 +9,16 @@ const fs = require('fs');
 // === ATUALIZAÇÃO nael ===
 
 const client = new Client({
-    authStrategy: new LocalAuth()
+    authStrategy: new LocalAuth(),
+    puppeteer: {
+        headless: true,
+        executablePath: '/usr/bin/chromium',
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage'
+        ]
+    }
 });
 
 client.on('qr', qr => {
