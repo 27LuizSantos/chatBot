@@ -21,9 +21,12 @@ const client = new Client({
     }
 });
 
-client.on('qr', qr => {
-    console.log('QR GERADO');
-    qrcode.generate(qr, { small: true });
+client.on('qr', async (qr) => {
+    const QRCode = require('qrcode');
+
+    const qrImage = await QRCode.toDataURL(qr);
+
+    console.log(qrImage);
 });
 
 client.on('authenticated', () => {
