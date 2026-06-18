@@ -22,8 +22,8 @@ const client = new Client({
 });
 
 client.on('qr', async (qr) => {
-    const QRCode = require('qrcode');
-
+    const qrcode = require('qrcode-terminal');
+    
     const qrImage = await QRCode.toDataURL(qr);
 
     console.log(qrImage);
